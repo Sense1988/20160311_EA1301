@@ -1,0 +1,465 @@
+<ReleasePackage>
+	<ReleasePackageName>MT6577</ReleasePackageName>
+	<DirList>
+		<ReleaseDirList>
+			<Dir>build</Dir>
+			<Dir>mediatek/build</Dir>
+			<Dir>mediatek/cgen</Dir>
+			<Dir>mediatek/config/banyan_addon</Dir>
+			<Dir>mediatek/config/common</Dir>
+			<Dir>mediatek/config/mt6575</Dir>
+			<Dir>mediatek/config/mt6575_phone</Dir>
+			<Dir>mediatek/config/mt6577</Dir>
+			<Dir>mediatek/config/mt6577_phone</Dir>
+			<Dir>mediatek/custom/banyan_addon</Dir>
+			<Dir>mediatek/custom/common</Dir>
+			<Dir>mediatek/custom/mt6575</Dir>
+			<Dir>mediatek/custom/mt6575_phone</Dir>
+			<Dir>mediatek/custom/mt6577</Dir>
+			<Dir>mediatek/custom/mt6577_phone</Dir>
+			<Dir>mediatek/dct</Dir>
+		</ReleaseDirList>
+		<UnReleaseDirList>
+			<Dir>external/quake</Dir>
+			<Dir>frameworks/base/policy/tests</Dir>
+			<Dir>kernel-3.4/drivers/misc/mediatek/lg_interface</Dir>
+			<Dir>mediatek/binary/3rd-party/free/Sina_Weibo</Dir>
+			<Dir>mediatek/build/tools/memmon</Dir>
+			<Dir>mediatek/config/common/releasepackage</Dir>
+			<Dir>mediatek/custom/common/kernel/hdmi/ch7035</Dir>
+			<Dir>mediatek/custom/common/kernel/lcm/TM070DDH03</Dir>
+			<Dir>mediatek/custom/common/kernel/touchpanel/GT827</Dir>
+			<Dir>mediatek/external/StressTestBench</Dir>
+			<Dir>mediatek/external/btif</Dir>
+			<Dir>mediatek/external/drvb</Dir>
+			<Dir>mediatek/external/emmc_rw_debug</Dir>
+			<Dir>mediatek/external/gator-daemon</Dir>
+			<Dir>mediatek/external/irrlicht</Dir>
+			<Dir>mediatek/external/libmmprofile</Dir>
+			<Dir>mediatek/external/met</Dir>
+			<Dir>mediatek/external/mhal/src/core/drv/6573</Dir>
+			<Dir>mediatek/external/mhal/src/core/drv/8320</Dir>
+			<Dir>mediatek/external/mmp</Dir>
+			<Dir>mediatek/external/mt8193</Dir>
+			<Dir>mediatek/external/mtknfc</Dir>
+			<Dir>mediatek/external/mtop</Dir>
+			<Dir>mediatek/external/mtsu</Dir>
+			<Dir>mediatek/external/proc_mem</Dir>
+			<Dir>mediatek/external/resmon</Dir>
+			<Dir>mediatek/external/robotium</Dir>
+			<Dir>mediatek/external/trustzone</Dir>
+			<Dir>mediatek/external/wireless-tools</Dir>
+			<Dir>mediatek/frameworks/av/drm/widevine</Dir>
+			<Dir>mediatek/frameworks/base/libs/gui</Dir>
+			<Dir>mediatek/frameworks/base/media/libstagefright/mpegps</Dir>
+			<Dir>mediatek/frameworks/libs/a3m</Dir>
+			<Dir>mediatek/frameworks/ngin3d</Dir>
+			<Dir>mediatek/frameworks/opengl</Dir>
+			<Dir>mediatek/frameworks/pluginmanager/tests</Dir>
+			<Dir>mediatek/hardware/omx/test_bed</Dir>
+			<Dir>mediatek/hardware/ril/huawei-ril</Dir>
+			<Dir>mediatek/kernel/drivers/aee/kdump</Dir>
+			<Dir>mediatek/kernel/drivers/gator-driver</Dir>
+			<Dir>mediatek/kernel/drivers/mmp/src</Dir>
+			<Dir>mediatek/kernel/drivers/nfc</Dir>
+			<Dir>mediatek/kernel/trace32</Dir>
+			<Dir>mediatek/packages/apps/CMMB/tests</Dir>
+			<Dir>mediatek/packages/apps/EngineerMode/src/com/mediatek/engineermode/log2server</Dir>
+			<Dir>mediatek/packages/apps/FMRadio/tests</Dir>
+			<Dir>mediatek/packages/apps/FileManager/tests</Dir>
+			<Dir>mediatek/packages/apps/InternalEM</Dir>
+			<Dir>mediatek/packages/apps/MTKVideoLiveWallpaper/tests</Dir>
+			<Dir>mediatek/packages/apps/Mtv/tests</Dir>
+			<Dir>mediatek/packages/apps/OOBE</Dir>
+			<Dir>mediatek/packages/apps/Omacp/tests</Dir>
+			<Dir>mediatek/platform/mt6572</Dir>
+			<Dir>mediatek/platform/mt6575/external/ldvt</Dir>
+			<Dir>mediatek/platform/mt6577/external/ldvt</Dir>
+			<Dir>mediatek/platform/mt6577/tools</Dir>
+			<Dir>mediatek/platform/mt6582</Dir>
+			<Dir>mediatek/platform/mt6585</Dir>
+			<Dir>mediatek/platform/mt6589</Dir>
+			<Dir>mediatek/platform/mt6592</Dir>
+			<Dir>mediatek/platform/mt6593</Dir>
+			<Dir>mediatek/platform/mt6595</Dir>
+			<Dir>mediatek/platform/mt8127</Dir>
+			<Dir>mediatek/platform/mt8135</Dir>
+			<Dir>mediatek/protect-app/external</Dir>
+			<Dir>mediatek/protect-app/frameworks/base/agps</Dir>
+			<Dir>mediatek/protect-app/packages</Dir>
+			<Dir>mediatek/protect-bsp</Dir>
+			<Dir>mediatek/protect/bootable</Dir>
+			<Dir>mediatek/protect/external/audiodcremoveflt</Dir>
+			<Dir>mediatek/protect/external/pal</Dir>
+			<Dir>mediatek/protect/external/telephony_log</Dir>
+			<Dir>mediatek/protect/external/thermal_manager</Dir>
+			<Dir>mediatek/protect/frameworks/a3m</Dir>
+			<Dir>mediatek/protect/frameworks/av</Dir>
+			<Dir>mediatek/protect/frameworks/base/jpe</Dir>
+			<Dir>mediatek/protect/frameworks/native</Dir>
+			<Dir>mediatek/protect/platform</Dir>
+			<Dir>packages/apps/Browser/tests</Dir>
+			<Dir>packages/apps/Calculator/tests</Dir>
+			<Dir>packages/apps/Calendar/tests</Dir>
+			<Dir>packages/apps/Camera/tests</Dir>
+			<Dir>packages/apps/Contacts/tests</Dir>
+			<Dir>packages/apps/DeskClock/tests</Dir>
+			<Dir>packages/apps/Email/tests</Dir>
+			<Dir>packages/apps/Exchange/tests</Dir>
+			<Dir>packages/apps/Gallery2/tests</Dir>
+			<Dir>packages/apps/Launcher2/tests</Dir>
+			<Dir>packages/apps/Mms/tests</Dir>
+			<Dir>packages/apps/Music/tests</Dir>
+			<Dir>packages/apps/Phone/tests</Dir>
+			<Dir>packages/apps/QuickSearchBox/tests</Dir>
+			<Dir>packages/apps/Settings/tests</Dir>
+			<Dir>packages/apps/SoundRecorder/tests</Dir>
+			<Dir>packages/apps/VideoEditor/tests</Dir>
+			<Dir>packages/inputmethods/LatinIME/tests</Dir>
+			<Dir>packages/inputmethods/PinyinIME/tests</Dir>
+			<Dir>packages/providers/CalendarProvider/tests</Dir>
+			<Dir>packages/providers/DownloadProvider/tests</Dir>
+			<Dir>packages/wallpapers/Basic/tests</Dir>
+			<Dir>packages/wallpapers/Galaxy4/tests</Dir>
+			<Dir>packages/wallpapers/HoloSpiral/tests</Dir>
+			<Dir>packages/wallpapers/LivePicker/tests</Dir>
+			<Dir>packages/wallpapers/MagicSmoke/tests</Dir>
+			<Dir>packages/wallpapers/MusicVisualization/tests</Dir>
+			<Dir>packages/wallpapers/NoiseField/tests</Dir>
+			<Dir>packages/wallpapers/PhaseBeam/tests</Dir>
+		</UnReleaseDirList>
+	</DirList>
+	<FileList>
+		<ReleaseFileList>
+			<File>Makefile</File>
+			<File>build/CleanSpec.mk</File>
+			<File>build/buildspec.mk.default</File>
+			<File>build/envsetup.sh</File>
+			<File>build/target/product/AndroidProducts.mk</File>
+			<File>build/target/product/common.mk</File>
+			<File>build/target/product/core.mk</File>
+			<File>build/target/product/generic.mk</File>
+			<File>build/target/product/generic_no_telephony.mk</File>
+			<File>build/target/product/languages_full.mk</File>
+			<File>build/target/product/sdk.mk</File>
+			<File>build/target/product/telephony.mk</File>
+			<File>makeMtk</File>
+			<File>mbldenv.sh</File>
+			<File>mediatek/binary/packages/Android.mk</File>
+			<File>mediatek/custom/Android.mk</File>
+			<File>mediatek/external/README</File>
+			<File>mediatek/hardware/README</File>
+			<File>mediatek/kernel/README</File>
+			<File>mediatek/platform/Android.mk</File>
+			<File>mediatek/platform/README</File>
+			<File>mediatek/platform/mt6575/external/Android.mk</File>
+			<File>mediatek/platform/mt6575/hardware/Android.mk</File>
+			<File>mediatek/platform/mt6577/external/Android.mk</File>
+			<File>mediatek/platform/mt6577/hardware/Android.mk</File>
+			<File>mk</File>
+			<File>packages/apps/Settings/ext/src/com/mediatek/settings/ext/DefaultPplSettingsEntryExt.java</File>
+			<File>packages/apps/Settings/ext/src/com/mediatek/settings/ext/IPplSettingsEntryExt.java</File>
+		</ReleaseFileList>
+		<UnReleaseFileList>
+			<File>androidQ</File>
+			<File>mediatek/build/android/full/config.mk.custrel</File>
+			<File>mediatek/build/build/tools/codestrip.sh</File>
+			<File>mediatek/build/tools/codestrip.sh</File>
+			<File>mediatek/build/tools/customRelease.py</File>
+			<File>mediatek/build/tools/flavor_configuration.pl</File>
+			<File>mediatek/build/tools/policygen.pl</File>
+			<File>mediatek/build/tools/smartCheck.py</File>
+			<File>mediatek/config/mt6577/init.aee.mtk.rc</File>
+			<File>mediatek/frameworks/base/media/libstagefright/OgmExtractor.cpp</File>
+			<File>mediatek/frameworks/base/media/libstagefright/include/OgmExtractor.h</File>
+			<File>mediatek/platform/mt6577/kernel/core/hw_watchpoint.c</File>
+			<File>mediatek/platform/mt6577/kernel/core/include/mach/hw_watchpoint.h</File>
+			<File>mediatek/platform/mt6577/kernel/drivers/power/mt6575_battery_tbl.c</File>
+			<File>mediatek/platform/mt6577/kernel/drivers/power/mt6575_fuel_gauge_tbl.c</File>
+			<File>mediatek/platform/mt6577/kernel/drivers/power/mt6577_battery_tbl.c</File>
+			<File>mediatek/platform/mt6577/kernel/drivers/power/mt6577_fuel_gauge_tbl.c</File>
+			<File>mediatek/platform/mt6577/kernel/drivers/power/ncp1851.c</File>
+			<File>mediatek/platform/mt6577/kernel/drivers/power/ncp1851.h</File>
+			<File>mediatek/protect/external/README</File>
+			<File>mediatek/protect/frameworks/README</File>
+		</UnReleaseFileList>
+	</FileList>
+	<FrameworkRelease>
+		<SourceList>
+			<Source>device/common/gps</Source>
+			<Source>frameworks</Source>
+			<Source>mediatek/frameworks</Source>
+			<Source>mediatek/frameworks-ext</Source>
+			<Source>mediatek/frameworks/base/agps/etc</Source>
+			<Source>mediatek/frameworks/base/passpoint</Source>
+			<Source>mediatek/frameworks/common/src/com/mediatek/common/passpoint</Source>
+			<Source>mediatek/frameworks/common/src/com/mediatek/common/ppl</Source>
+			<Source>mediatek/platform/mt6577/frameworks</Source>
+			<Source>mediatek/protect/frameworks/av</Source>
+			<Source>mediatek/protect/frameworks/base/telephony</Source>
+		</SourceList>
+		<BINList>
+			<Binary>mediatek/protect-app/frameworks/base/agps</Binary>
+			<Binary>mediatek/protect-bsp/frameworks/av/media/libstagefright</Binary>
+			<Binary>mediatek/protect-bsp/frameworks/libs</Binary>
+			<Binary>mediatek/protect/frameworks/a3m</Binary>
+			<Binary>mediatek/protect/frameworks/base/eposervice</Binary>
+			<Binary>mediatek/protect/frameworks/base/jpe</Binary>
+		</BINList>
+		<PartialSourceList>
+			<PartialSource module="framework" base="mediatek/frameworks-ext/base/core/java">
+				<Binary></Binary>
+			</PartialSource>
+			<PartialSource module="mediatek-framework" base="mediatek/frameworks/base/aee/exceptionlog/java">
+				<Binary>com/mediatek/exceptionlog</Binary>
+			</PartialSource>
+			<PartialSource module="mediatek-framework" base="mediatek/frameworks/base/agps/java">
+				<Binary>com/mediatek/agps</Binary>
+			</PartialSource>
+			<PartialSource module="mediatek-framework" base="mediatek/frameworks/base/epo/java">
+				<Binary></Binary>
+			</PartialSource>
+		</PartialSourceList>
+	</FrameworkRelease>
+	<AndroidRelease>
+		<SourceList>
+
+<Source>art</Source>
+<Source>developers/build</Source>
+<Source>developers/samples/android</Source>
+<!-- <Source>mediatek/external/atvctrlservice</Source> -->
+<!-- <Source>mediatek/external/AudioSetParam</Source> -->
+<Source>mediatek/external/autokd</Source>
+<Source>mediatek/external/BGW</Source>
+<!-- <Source>mediatek/external/brom_lite</Source> -->
+<Source>mediatek/external/clang</Source>
+<Source>mediatek/external/combo_tool</Source>
+<Source>mediatek/external/compiler-rt</Source>
+<!-- <Source>mediatek/external/cputime</Source> -->
+<!-- <Source>mediatek/external/eemcs_fsvc</Source> -->
+<!-- <Source>mediatek/external/emcs_va</Source> -->
+<!-- <Source>mediatek/external/fbconfig_tool</Source> -->
+<!-- <Source>mediatek/external/icusbd</Source> -->
+<!-- <Source>mediatek/external/kisd</Source> -->
+<Source>mediatek/external/llvm</Source>
+<!-- <Source>mediatek/external/mhl</Source> -->
+<!-- <Source>mediatek/external/mobicore</Source> -->
+<!-- <Source>mediatek/external/mpud6050</Source> -->
+<!-- <Source>mediatek/external/mtb</Source> -->
+<!-- <Source>mediatek/external/playready</Source -->>
+<Source>mediatek/external/ppl_agent</Source>
+<!-- <Source>mediatek/external/resource_monitor</Source> -->
+<Source>mediatek/external/tfa9887</Source>
+<!-- <Source>mediatek/external/trustzone</Source> -->
+<!-- <Source>mediatek/external/u3dg</Source> -->
+<Source>mediatek/external/wdt_test</Source>
+<!-- <Source>mediatek/external/wlan_loader</Source> -->
+<!-- <Source>mediatek/external/wmaprodec</Source> -->
+<!-- <Source>mediatek/platform/common/external/display/lib/libipto3d</Source> -->
+<Source>mediatek/platform/common/frameworks/libmtkplayer</Source>
+<Source>mediatek/platform/common/hardware/wifi</Source>
+<Source>mediatek/platform/mt6577/binary</Source>
+
+			<Source>bionic</Source>
+			<Source>bootable/bootloader/lk</Source>
+			<Source>bootable/recovery</Source>
+			<Source>cts</Source>
+			<Source>dalvik</Source>
+			<Source>development</Source>
+			<Source>device</Source>
+			<Source>external</Source>
+			<Source>frameworks</Source>
+			<Source>hardware</Source>
+			<Source>libcore</Source>
+			<Source>libnativehelper</Source>
+			<Source>mediatek/binary/3rd-party/free</Source>
+			<Source>mediatek/device</Source>
+			<Source>mediatek/external/AudioCompensationFilter</Source>
+			<Source>mediatek/external/AudioComponentEngine</Source>
+			<Source>mediatek/external/AudioSpeechEnhancement</Source>
+			<Source>mediatek/external/CKSM_Gen</Source>
+			<Source>mediatek/external/GeoCoding</Source>
+			<Source>mediatek/external/GoogleOtaBinder</Source>
+			<Source>mediatek/external/VT</Source>
+			<Source>mediatek/external/aacenc</Source>
+			<Source>mediatek/external/adpcmdec</Source>
+			<Source>mediatek/external/adpcmenc</Source>
+			<Source>mediatek/external/aee</Source>
+			<Source>mediatek/external/amr</Source>
+			<Source>mediatek/external/apedec</Source>
+			<Source>mediatek/external/atbinlibs</Source>
+			<Source>mediatek/external/atcid</Source>
+			<Source>mediatek/external/audioATCmdHandlerServer</Source>
+			<Source>mediatek/external/audiocommand</Source>
+			<Source>mediatek/external/audiocustparam</Source>
+			<Source>mediatek/external/audiodcremoveflt</Source>
+			<Source>mediatek/external/audioregsetting</Source>
+			<Source>mediatek/external/audiosetting</Source>
+			<Source>mediatek/external/AudioTimeStretch</Source>
+			<Source>mediatek/external/autofm</Source>
+			<Source>mediatek/external/awb</Source>
+			<Source>mediatek/external/batterywarning</Source>
+			<Source>mediatek/external/bessound</Source>
+			<Source>mediatek/external/bessound_HD</Source>
+			<Source>mediatek/external/blisrc</Source>
+			<Source>mediatek/external/blisrc32</Source>
+			<Source>mediatek/external/bluetooth</Source>
+			<Source>mediatek/external/boot_logo_updater</Source>
+			<Source>mediatek/external/ccci_rpcd</Source>
+			<Source>mediatek/external/tc1_interface</Source>
+			<Source>mediatek/external/combo_tool/Android.mk</Source>
+			<Source>mediatek/external/cvsd_plc_codec</Source>
+			<Source>mediatek/external/dfo</Source>
+			<Source>mediatek/external/dm_agent_binder</Source>
+			<Source>mediatek/external/dmlog</Source>
+			<Source>mediatek/external/ext4_resize</Source>
+			<Source>mediatek/external/ext_md_daemon</Source>
+			<Source>mediatek/external/fbconfig_tool</Source>
+			<Source>mediatek/external/fft</Source>
+			<Source>mediatek/external/flacdec</Source>
+			<Source>mediatek/external/fmradio</Source>
+			<Source>mediatek/external/ipod</Source>
+			<Source>mediatek/external/lcdc_screen_cap</Source>
+			<Source>mediatek/external/leptonica</Source>
+			<Source>mediatek/external/libAGifEncoder</Source>
+			<Source>mediatek/external/libipod</Source>
+			<Source>mediatek/external/libsched</Source>
+			<Source>mediatek/external/libshowlogo</Source>
+			<Source>mediatek/external/limiter</Source>
+			<Source>mediatek/external/lzo</Source>
+			<Source>mediatek/external/matv_cli</Source>
+			<Source>mediatek/external/matv_cust</Source>
+			<Source>mediatek/external/matvctrl</Source>
+			<Source>mediatek/external/meta</Source>
+			<Source>mediatek/external/mhal</Source>
+			<Source>mediatek/external/midiSeektable</Source>
+			<Source>mediatek/external/mnl</Source>
+			<Source>mediatek/external/motionRecognition</Source>
+			<Source>mediatek/external/mpo</Source>
+			<Source>mediatek/external/mpud6050</Source>
+			<Source>mediatek/external/msbc_codec</Source>
+			<Source>mediatek/external/mtd-utils</Source>
+			<Source>mediatek/external/mtk_wifi</Source>
+			<Source>mediatek/external/mtkjpeg</Source>
+			<Source>mediatek/external/mtknfc</Source>
+			<Source>mediatek/external/mvg_app</Source>
+			<Source>mediatek/external/nonNDK</Source>
+			<Source>mediatek/external/nvram</Source>
+			<Source>mediatek/external/otp</Source>
+			<Source>mediatek/external/permission_check</Source>
+			<Source>mediatek/external/ppl_agent</Source>
+			<Source>mediatek/external/radvd</Source>
+			<Source>mediatek/external/sdiotool</Source>
+			<Source>mediatek/external/seclib</Source>
+			<Source>mediatek/external/shifter</Source>
+			<Source>mediatek/external/sip</Source>
+			<Source>mediatek/external/sn</Source>
+			<Source>mediatek/external/sqlite</Source>
+			<Source>mediatek/external/superumount</Source>
+			<Source>mediatek/external/thermal</Source>
+			<Source>mediatek/external/tiny_util</Source>
+			<Source>mediatek/external/voiceui</Source>
+			<Source>mediatek/external/voiceunlock</Source>
+			<Source>mediatek/external/vorbisdec_swip</Source>
+			<Source>mediatek/external/vorbisenc</Source>
+			<Source>mediatek/external/vtmal</Source>
+			<Source>mediatek/external/wlan_loader</Source>
+			<Source>mediatek/external/xlog/tools</Source>
+			<Source>mediatek/factory</Source>
+			<Source>mediatek/frameworks</Source>
+			<Source>mediatek/frameworks-ext</Source>
+			<Source>mediatek/hardware</Source>
+			<Source>mediatek/packages/apps/MediatekDM</Source>
+			<Source>mediatek/packages/apps/PrivacyProtectionLock</Source>
+			<Source>mediatek/packages/apps/SmsReg</Source>
+			<Source>mediatek/platform/Android.mk</Source>
+			<Source>mediatek/platform/common/hardware/audio</Source>
+			<Source>mediatek/platform/mt6575/external/meta</Source>
+			<Source>mediatek/platform/mt6575/hardware/audio</Source>
+			<Source>mediatek/platform/mt6575/hardware/camera</Source>
+			<Source>mediatek/platform/mt6575/hardware/include</Source>
+			<Source>mediatek/platform/mt6577/Trace</Source>
+			<Source>mediatek/platform/mt6577/binary/3rd-party/free</Source>
+			<Source>mediatek/platform/mt6577/external/meta</Source>
+			<Source>mediatek/platform/mt6577/hardware/Android.mk</Source>
+			<Source>mediatek/platform/mt6577/hardware/audio</Source>
+			<Source>mediatek/platform/mt6577/hardware/camera</Source>
+			<Source>mediatek/platform/mt6577/hardware/gpu</Source>
+			<Source>mediatek/platform/mt6577/hardware/include</Source>
+			<Source>mediatek/platform/mt6577/hardware/mhal</Source>
+			<Source>mediatek/platform/mt6577/lk</Source>
+			<Source>mediatek/platform/mt6577/preloader</Source>
+			<Source>mediatek/platform/rules.mk</Source>
+			<Source>mediatek/preloader</Source>
+			<Source>mediatek/protect-app/external/dualmdlogger</Source>
+			<Source>mediatek/protect-app/external/extmdlogger</Source>
+			<Source>mediatek/protect-app/external/extmdlogger_ctrl</Source>
+			<Source>mediatek/protect-app/external/extmdlogger_ctrl_jni</Source>
+			<Source>mediatek/protect-app/external/mdlogger</Source>
+			<Source>mediatek/protect-bsp/external/NetworkLogD</Source>
+			<Source>mediatek/protect/external/bluetooth</Source>
+			<Source>mediatek/protect/external/telephony_log</Source>
+			<Source>mediatek/protect/hardware</Source>
+			<Source>mediatek/trustzone</Source>
+			<Source>ndk</Source>
+			<Source>pdk</Source>
+			<Source>prebuilts</Source>
+			<Source>sdk</Source>
+			<Source>system</Source>
+			<Source>tools</Source>
+		</SourceList>
+		<BINList>
+
+<!-- <Binary>mediatek/protect/external/3D</Binary> -->
+<!-- <Binary>mediatek/protect/external/hotplug</Binary> -->
+
+			<Binary>mediatek/external/combo_tool/src</Binary>
+			<Binary>mediatek/external/mp3dec</Binary>
+			<Binary>mediatek/external/nvram/libnvram</Binary>
+			<Binary>mediatek/external/sensor-tools</Binary>
+			<Binary>mediatek/external/shutdown</Binary>
+			<Binary>mediatek/external/xlog/ale_gcc</Binary>
+			<Binary>mediatek/external/xlog/examples</Binary>
+			<Binary>mediatek/protect-app/external</Binary>
+			<Binary>mediatek/protect-app/frameworks/base/agps</Binary>
+			<Binary>mediatek/protect-app/packages</Binary>
+			<Binary>mediatek/protect-bsp</Binary>
+			<Binary>mediatek/protect/bootable</Binary>
+			<Binary>mediatek/protect/external/3D</Binary>
+			<Binary>mediatek/protect/external/audiodcremoveflt</Binary>
+			<Binary>mediatek/protect/external/libperfservice</Binary>
+			<Binary>mediatek/protect/external/pal</Binary>
+			<Binary>mediatek/protect/external/thermal_manager</Binary>
+			<Binary>mediatek/protect/frameworks/a3m</Binary>
+			<Binary>mediatek/protect/frameworks/av</Binary>
+			<Binary>mediatek/protect/frameworks/base/jpe</Binary>
+			<Binary>mediatek/protect/frameworks/native</Binary>
+			<Binary>mediatek/protect/platform</Binary>
+		</BINList>
+	</AndroidRelease>
+	<APPRelease>
+		<SourceList>
+			<Source>mediatek/packages</Source>
+			<Source>mediatek/protect-app/packages/apps/ExtModemLog</Source>
+			<Source>mediatek/protect-app/packages/apps/MTKLogger</Source>
+			<Source>packages</Source>
+		</SourceList>
+		<BINList>
+			<Binary>mediatek/protect-app/external</Binary>
+			<Binary>mediatek/protect-app/frameworks/base/agps</Binary>
+			<Binary>mediatek/protect-app/packages</Binary>
+			<Binary>mediatek/protect-bsp</Binary>
+		</BINList>
+	</APPRelease>
+	<KernelRelease>
+		<SourceList>
+			<Source>kernel</Source>
+			<Source>kernel-3.4</Source>
+			<Source>mediatek/kernel</Source>
+			<Source>mediatek/platform/mt6577/kernel</Source>
+			<Source>mediatek/platform/mt6575/kernel</Source>
+		</SourceList>
+		<BINList>
+		</BINList>
+	</KernelRelease>
+</ReleasePackage>
