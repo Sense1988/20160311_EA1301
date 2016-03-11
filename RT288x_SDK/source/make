@@ -1,0 +1,8 @@
+#!/bin/sh
+MTKENV=`hostname | grep mtk`
+if [ "$MTKENV" != "" -a "$1" != "menuconfig" ]; then
+	mosesq make $1 $2
+else
+	make $1 $2
+fi
+
