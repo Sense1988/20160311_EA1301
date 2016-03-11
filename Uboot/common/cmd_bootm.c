@@ -471,6 +471,8 @@ int do_bootm (cmd_tbl_t *cmdtp, int flag, int argc, char *argv[])
 		unsigned int destLen = 0;
                 i = lzmaBuffToBuffDecompress ((char*)ntohl(hdr->ih_load),
                                 &destLen, (char *)data, len);
+
+		//we error here!!kevin
                 if (i != LZMA_RESULT_OK) {
                         printf ("LZMA ERROR %d - must RESET board to recover\n", i);
                         SHOW_BOOT_PROGRESS (-6);

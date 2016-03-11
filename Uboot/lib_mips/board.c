@@ -1997,11 +1997,15 @@ __attribute__((nomips16)) void board_init_r (gd_t *id, ulong dest_addr)
 		printf ("\b\b\b%2d ", timer1);
 	}
 	putc ('\n');
+
+//kevin
 	if(BootType == '3') {
 		char *argv[2];
 		sprintf(addr_str, "0x%X", CFG_KERN_ADDR);
 		argv[1] = &addr_str[0];
 		printf("   \n3: System Boot system code via Flash.\n");
+
+		printf("   \n[--kevin--]CFG_KERN_ADDR=%s\n", addr_str);
 		do_bootm(cmdtp, 0, 2, argv);
 	}
 	else {
