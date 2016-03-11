@@ -132,15 +132,12 @@
 			CFG_CMD_JFFS2	| \
 			CFG_CMD_KGDB	| \
 			CFG_CMD_LOADS	| \
-			CFG_CMD_MII	| \
 			CFG_CMD_MMC	| \
 			CFG_CMD_NAND	| \
 			CFG_CMD_NFS	| \
 			CFG_CMD_PCI	| \
 			CFG_CMD_PCMCIA	| \
-			CFG_CMD_PING	| \
 			CFG_CMD_PORTIO	| \
-			CFG_CMD_REGINFO | \
 			CFG_CMD_REISER	| \
 			CFG_CMD_RUN	| \
 			CFG_CMD_SAVES	| \
@@ -149,9 +146,14 @@
 			CFG_CMD_UNIVERSE | \
 			CFG_CMD_USB	| \
 			CFG_CMD_VFD	)
+//			CFG_CMD_PING	| \
+			CFG_CMD_MII	| \
+			CFG_CMD_REGINFO | \
 
 /* Default configuration
  */
+
+//kevin
 #define CONFIG_CMD_DFL	(CFG_CMD_ALL & ~CFG_CMD_NONSTD)
 #define CONFIG_COMMANDS (CONFIG_CMD_DFL)
 

@@ -4,6 +4,8 @@ if [ "$1" = "1" ]; then
 	make menuconfig
 elif [ "$1" = "2" ]; then
 	make
+	cp uboot.bin /ftp/
+	ls -l /ftp/
 elif [ "$1" = "3" ]; then
 	make distclean
 else
