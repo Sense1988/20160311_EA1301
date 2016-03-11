@@ -1,0 +1,11 @@
+[build_linux_prog]
+TARGETNAME = libwifiwmt
+TARGETTYPE = library
+
+       
+SOURCES = \
+	wifi_wmt.c \
+
+
+INCLUDES += \
+	inc \

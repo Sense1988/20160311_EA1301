@@ -1,0 +1,4 @@
+[build_linux_prog]
+build.inf:
+
+

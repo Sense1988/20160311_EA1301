@@ -1,0 +1,11 @@
+[sony]
+
+EXPORT = \
+         include/common/bt_config.h \
+         include/common/bt_types.h \
+         include/common/bluetooth_struct.h \
+         include/common/default/bt_mmi.h \
+         include/profiles/bluetooth_a2dp_struct.h \
+         include/profiles/bluetooth_avrcp_struct.h \
+         include/profiles/bluetooth_spp_struct.h \
+         

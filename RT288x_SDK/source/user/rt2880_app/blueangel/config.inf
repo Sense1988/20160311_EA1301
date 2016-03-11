@@ -1,0 +1,7 @@
+[build_linux_prog && base]
+build.inf:
+    CCFLAGS += -DBTMTK_ON_V301 \
+
+[build_linux_prog && sony]
+build.inf:
+    CCFLAGS += -D__BTMTK_ON_SONY__ \
